@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lakhanpals/Desktop/ANKUR/UNITEC/web development assignments/QualityBooks/QualityBooks/QualityBooks.csproj": {}
+  },
+  "projects": {
+    "/Users/lakhanpals/Desktop/ANKUR/UNITEC/web development assignments/QualityBooks/QualityBooks/QualityBooks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lakhanpals/Desktop/ANKUR/UNITEC/web development assignments/QualityBooks/QualityBooks/QualityBooks.csproj",
+        "projectName": "QualityBooks",
+        "projectPath": "/Users/lakhanpals/Desktop/ANKUR/UNITEC/web development assignments/QualityBooks/QualityBooks/QualityBooks.csproj",
+        "packagesPath": "/Users/lakhanpals/.nuget/packages/",
+        "outputPath": "/Users/lakhanpals/Desktop/ANKUR/UNITEC/web development assignments/QualityBooks/QualityBooks/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/lakhanpals/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "WhackWhackTerminal.Embeddable": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
